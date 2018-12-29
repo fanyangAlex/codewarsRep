@@ -12,6 +12,5 @@ def iq_test1(numbers):
 
     return e.index(True) + 1 if e.count(True) == 1 else e.index(False) + 1
 
-daddadada
 
 iq_test("2 4 7 8 10")
