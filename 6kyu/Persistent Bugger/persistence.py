@@ -1,6 +1,5 @@
 from functools import reduce
 
-
 def persistence(n):
     times = 0
     while n > 9:

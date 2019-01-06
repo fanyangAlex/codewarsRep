@@ -1,5 +1,5 @@
 def iq_test(numbers):
-    array = map(lambda v: int(v), numbers.split(' '))
+    array = list(map(lambda v: int(v), numbers.split(' ')))
     length = len(array)
     isEven = sum(1 for a in array if a % 2 == 0) > 1
     for i in range(length):
